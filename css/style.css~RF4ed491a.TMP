@@ -1,0 +1,276 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+#header{
+	position: fixed;
+	width: 100%;
+	height: 80px;
+	background-color: rgba(0,0,0,0.6);
+	left: 0;
+	top: 0;
+	z-index: 3;
+}
+#header-wrapper{
+	max-width: 1090px;
+	margin: 0 auto;
+}
+#logo{
+	float: left;
+}
+#menu{
+	float: right;
+	line-height: 80px;
+	color: #fff;
+}
+#menu li{
+	float: left;
+	list-style: none;
+}
+#menu li a{
+	padding: 8px 16px 8px 16px;
+	cursor: pointer;
+}
+#menu li a:hover{
+	background: #0099CC;
+}
+#content{
+	max-width: 1090px;
+	margin: 80px auto 80px auto;
+	padding-left: 15px;
+	padding-right:15px;
+}
+
+.owl-theme .owl-controls {
+	margin-top: -23px !important;
+	position: relative;
+}
+
+/* footer css*/
+#footer{
+	background: #303132;
+	overflow: hidden;
+}
+#footer-wrapper{
+	max-width: 1090px;
+	margin: 0 auto;
+}
+.primer-separador{
+	padding-top: 10px;
+	
+	
+}
+.segundo-separador{
+	padding-top: 10px;
+}
+
+.sprite-facebook, .sprite-google, .sprite-twitter{
+	background-image: url("../img/social_sprite.png");
+	background-repeat: no-repeat;
+}
+.social_icons{
+	margin: 0 auto;
+	text-align: center;
+}
+.social_icons li{
+	border-right: 1px dotted #fff;
+	border-style: ;
+	padding: 5px 10px;
+}
+
+.social_icons .last{ border-right: 0px !important;}
+.social_icons li, .social_icons li div{
+	float: left;
+}
+.social_text{
+	height: 38px;
+	margin-top: 6px;
+	margin-left:10px;
+	color: #FFF;
+	font-size: 12px;
+}
+.social_icons li:hover{
+	cursor: pointer;
+}
+.social_icons li:hover .social_text{
+	color: #EC3232;
+}
+
+.sprite-facebook{ background-position: 0 0; width: 38px; height: 38px; } 
+.sprite-google{ background-position: -78px 0; width: 38px; height: 38px; } 
+.sprite-twitter{ background-position: -156px 0; width: 47px; height: 38px; } 
+.social_icons li:hover .sprite-facebook{ background-position: -39px 0; width: 38px; height: 38px; }
+.social_icons li:hover .sprite-google{ background-position: -117px 0; width: 38px; height: 38px; } 
+.social_icons li:hover .sprite-twitter{ background-position: -204px 0; width: 47px; height: 38px; } 
+
+
+
+.clear{
+	clear: both;
+}
+
+/* post css*/
+.post-wrap{
+	border-top: #C3C3C3 dotted 1px;
+	padding-bottom: 20px;
+}
+
+.post-section{
+	float: left;
+	max-width: 750px;
+	width: 68.80733944954128%;
+}
+.post-wrap .post-title{
+	float: left;
+	width:-moz-calc(100% - 210px);
+  	width:calc(100% - 210px);
+  	padding-left: 10px;
+}
+.post-wrap .fecha-post{
+	background: #EC3232;
+	padding: 10px;
+	color: #FFF;
+}
+.post-wrap  .post-left{
+	float: left;
+	height: 100%;
+	width: 200px;
+}
+
+.post-wrap .post-title h2{
+	font-size: 40px;
+	font-weight: 300;
+	line-height: normal;
+	cursor: pointer;
+	color: #EC3232;
+}
+.post-wrap .post-title h2:hover{
+	color: #2ECCFA;
+}
+.post-wrap .post-content{
+	float: left;
+	max-width: 550px;
+	margin-top: 20px;
+	font-size: 17px;
+	line-height: normal;
+	width:-moz-calc(100% - 210px);
+  	width:calc(100% - 210px);
+  	padding-left: 10px;
+}
+
+.post-wrap .post-img{
+	margin-top: 20px;
+	width: 180px;
+	height: 130px;
+	overflow: hidden;
+}
+
+.post-wrap .post-img img{
+	width: 100%;
+}
+
+.side-title{
+	background: #404243;
+	color: #fff;
+}
+.menusel-title{
+	background: #404243;
+	color: #fff;
+	height: 51px;
+}
+.menusel-title li{
+	float: left;
+	width: 33.33%;
+}
+.menusel-title li a{
+	display: block;
+	height: 51px;
+	text-align: center;
+	line-height: 50px;
+	cursor: pointer;
+}
+.post-wrap footer{
+	float: left;
+}
+
+.menusel-title li a:hover{
+	background:#EC3232;
+}
+
+.menusel-title .active a{
+	background:#EC3232;
+}
+
+.menusel-cont{
+	margin-top: 20px;
+}
+.menusel-cont li{
+	display: none;
+}
+
+.menusel-cont .active{
+	display: block;
+}
+
+.sidebar-seccion{
+	margin-bottom: 20px;
+}
+.sidebar{
+	width: 29.35779816513761%;
+	margin-left: 1.834862385321101%;
+	float: left;
+	line-height: normal;
+}
+
+.autor-img{
+	border-radius: 50%;
+	height: 100px;
+	width: 100px;
+	float: right;
+}
+@media screen and (max-width: 800px)  {
+	.sidebar,.post-section{
+		float: none;
+		width: 100%;
+		margin: 0;
+	}
+	.post-section{
+		margin-bottom: 20px;
+	}
+}
+
+@media screen and (max-width: 650px)  {
+
+	.post-wrap .post-title h2{
+		font-size: 32px;
+	}
+	.post-wrap .post-content{
+		font-size: 15px;
+	}
+}
+
+@media screen and (max-width: 528px)  {
+	.post-wrap  .post-left{
+		float: none;
+		width: 100%;
+	}
+	.post-wrap .post-title{
+		float: none;
+		width: 100%;
+		text-align: center;
+		padding: 0;
+	}
+
+	.post-wrap .post-img{
+		float: none;
+		margin: 20px auto 0;
+	}
+	.post-wrap .post-content{
+		width: 100%;
+		float: none;
+		padding: 0;
+	}
+	.post-wrap .fecha-post{
+		width: 200px;
+	}
+}
